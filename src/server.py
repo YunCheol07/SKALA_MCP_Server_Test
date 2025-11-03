@@ -3,6 +3,7 @@
 Agent Builder MCP 서버의 메인 서버 코드
 """
 
+# src/server.py
 import json
 import os
 import sys
@@ -15,6 +16,7 @@ from typing import Optional
 from fastmcp import FastMCP
 from dotenv import load_dotenv
 
+# ✓ 절대 import로 변경
 from config import AVAILABLE_TOOLS, NODE_PATTERNS
 from services import PromptAnalyzer, NodeRecommender, WorkflowOptimizer
 

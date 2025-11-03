@@ -7,7 +7,10 @@
 import json
 from typing import Dict, List, Any
 from datetime import datetime
-from ..config import AVAILABLE_TOOLS, TOOL_CATEGORIES
+
+# 상대 import 수정
+from config.tools_config import AVAILABLE_TOOLS, TOOL_CATEGORIES
+from config.patterns import NODE_PATTERNS
 
 class PromptAnalyzer:
     """사용자 프롬프트를 분석하는 클래스"""

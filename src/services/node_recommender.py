@@ -8,7 +8,10 @@ import json
 from typing import Dict, List, Any
 from uuid import uuid4
 from datetime import datetime
-from ..config import AVAILABLE_TOOLS, NODE_PATTERNS
+
+# 상대 import 수정
+from config.tools_config import AVAILABLE_TOOLS
+from config.patterns import NODE_PATTERNS
 
 class NodeRecommender:
     """노드 구조를 추천하는 클래스"""
