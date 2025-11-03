@@ -5,6 +5,12 @@ Agent Builder MCP 서버의 메인 서버 코드
 
 import json
 import os
+import sys
+from pathlib import Path
+
+# Python 경로 설정
+sys.path.insert(0, str(Path(__file__).parent))
+
 from typing import Optional
 from fastmcp import FastMCP
 from dotenv import load_dotenv
