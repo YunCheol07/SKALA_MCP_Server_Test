@@ -1,0 +1,100 @@
+# 가상 환경
+venv/
+env/
+ENV/
+.venv/
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# 테스트 및 커버리지
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# 로깅
+logs/
+*.log
+*.log.*
+
+# MCP 관련
+.mcp.json
+mcp_cache/
+*.mcp
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# 프로젝트 특정
+config.local.py
+secrets.json
+*.bak
+.claude-mcp-servers/
+
+# Node (만약 프론트엔드 통합 시)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 임시 파일
+*.tmp
+*.temp
+tmp/
+temp/
+
+# 데이터베이스
+*.db
+*.sqlite
+*.sqlite3
